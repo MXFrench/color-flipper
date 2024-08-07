@@ -8,7 +8,7 @@ let elementsToChange = [title, color, body];
 const button = document.querySelector(".button");
 
 // An array for creating a hexcode value
-const hexcodeDigits = ['A', 'B', 'C', 'D', 'E', 'F', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+const hexcodeDigits = ['A', 'B', 'C', 'D', 'E', 'F',, '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
 
 // Get random number in a specified range
 function randomNumber(s, e) {

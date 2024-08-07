@@ -10,37 +10,37 @@ html {
   font-size: 62.5%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 50em) { /* 800px */
   html {
     font-size: 75%;
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 62.5em) { /* 1000px */
   html {
     font-size: 87.5%;
   }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 106.25em) { /* 1700px */
   html {
     font-size: 100%;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 31.25em) { /* 500px */
   html {
     font-size: 50%;
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 25em) { /* 400px */
   html {
     font-size: 37.5%;
   }
 }
 
-@media (max-width: 300px) {
+@media (max-width: 18.75em) { /* 300px */
   html {
     font-size: 25%;
   }
