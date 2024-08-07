@@ -1,0 +1,126 @@
+/* Universal Reset */
+
+*,*::before,*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (min-width: 800px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (min-width: 1000px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@media (min-width: 1700px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media (max-width: 300px) {
+  html {
+    font-size: 25%;
+  }
+}
+
+/* Layout */
+body {
+  height: 100vh;
+  width: 100%;
+
+  display: grid;
+  grid-template-rows: 7rem auto;
+
+  background-color: red;
+}
+
+.header {
+  background-color: white;
+  color: dodgerblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+/* Typography */
+
+body {
+  font-family: "Kanit", sans-serif;
+  font-size: 4rem;
+  line-height: 1;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 5rem;
+  letter-spacing: 5px;
+}
+
+.color-name {
+  color: dodgerblue;
+}
+
+/* Components */
+
+.label {
+  background-color: #222;
+  color: white;
+
+  padding: 2rem 3rem;
+  border-radius: 1rem;
+}
+
+.button {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 1px;
+
+  outline: none;
+  cursor: pointer;
+  transition: all .2s;
+
+  background-color: transparent;
+  border-radius: .5rem;
+  border: 2px solid #555;
+
+  padding: 1rem;
+}
+
+.button:hover {
+  background-color: #ffffff88;
+}
